@@ -237,4 +237,78 @@ p {
 
 
 
+.box32 {
+	top: 40px;
+	left: 1315px;
+	width: 90px;
+	height: 90px;
+	border: 11px solid black;
+	border-radius: 50%;
+}
+
+.box36 {
+	top: 0px;
+	left: 1405px;
+	width: 40px;
+	height: 140px;
+	background-color: white;
+}
+
+.box33 {
+	top: 140px;
+	left: 1345px;
+	width: 90px;
+	height: 90px;
+	border: 11px solid black;
+	border-radius: 50%;
+}
+
+
+
+.box34 {
+	top: 20px;
+	left: 1365px;
+	width: 40px;
+	height: 240px;
+	background-color: white;
+}
+
+.box35 {
+	top: 20px;
+	left: 1345px;
+	width: 40px;
+	height: 240px;
+	background-color: white;
+}
+
+.box29 {
+	top: 40px;
+	left: 1375px;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.box30 {
+	top: 135px;
+	left: 1375px;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.box31 {
+	top: 235px;
+	left: 1375px;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+
+
+
 
