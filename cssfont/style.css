@@ -69,10 +69,10 @@ p {
 }
 
 .box6 {
-	top: 130px;
-	left: 362px;
+	top: 150px;
+	left: 350px;
 	width: 11px;
-	height: 90px;
+	height: 60px;
 	background-color: black;
 	transform: rotate(90deg);
 }
@@ -307,6 +307,7 @@ p {
 	background-color: black;
 	border-radius: 50%;
 }
+
 
 
 
