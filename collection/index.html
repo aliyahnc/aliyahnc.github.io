@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Losa criolla collection</title>
+<title>Losa criolla collection</title>   
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
@@ -54,6 +54,38 @@ a:hover {
 
 }
 
+@keyframes fadeIn {
+	0% { 
+		opacity: 0; }
+
+
+	100% {
+		opacity: 1; }
+	}
+
+@keyframes fadeIn2 {
+		0% { 
+		opacity: 0; }
+
+		50% {
+		opacity: 0;
+		}
+
+	100% {
+		opacity: 1; }
+	}
+
+
+.fadeIn {
+	animation-name: fadeIn;
+	animation-duration: 4s;
+	}
+
+.fadeIn2 {
+	animation-name: fadeIn;
+	animation-duration: 9s;
+	
+}
 
 </style>
 
@@ -62,7 +94,7 @@ a:hover {
 <body>
 
 
-<br><br><br><center>
+<center>
 <img style="position: absolute; top: -144px; left: 32px;" src="grey.jpg"> 
 <img style="position: absolute; top: -144px; left: 230px;" src="grey.jpg"> 
 <img style="position: absolute; top: -144px; left: 428px;" src="grey.jpg"> 
@@ -83,19 +115,10 @@ a:hover {
 <img style="position: absolute; top: 1041px; left: 230px;" src="grey.jpg"> 
 <img style="position: absolute; top: 1041px; left: 428px;" src="grey.jpg">
 
-
-
 </center>
-
-
-
-
-
-<h1 class= "title">Losa criolla collection</h1>
-
-
-
-<p class="intro"><a href="collection.html">View the collection</a></p>
+<div class="fadeIn">
+<h1 class= "title">Losa criolla collection</h1></div><div class="fadeIn2">
+<p class="intro"><a href="collection.html">View the collection</a></p></div>
 
 
 
