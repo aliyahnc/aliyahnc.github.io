@@ -8,4 +8,17 @@ $(document).ready(function() {
 		$("body").css("background-image", "url(lucky.jpg)");
 	});
 
+	$(".img3").hover(function() {
+		$("body").css("background-image", "url(bouquet.jpg)");
+	});
+
+	$(".img4").hover(function() {
+		$("body").css("background-image", "url(grey.jpg)");
+	});
+
+
+
+
+
+
 });
