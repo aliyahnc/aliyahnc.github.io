@@ -20,7 +20,7 @@ $(document).ready(function() {
 		$("body").css("background-image", "url(stars2.jpg)");
 	});
 
-	$(".return").hover(function() {
+	$(".home").hover(function() {
 		$("body").css("background-image", "url(grey.jpg)");
 	});
 

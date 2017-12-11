@@ -22,6 +22,10 @@ $(document).ready(function() {
 	});
 
 	$(".img4").hover(function() {
+		$("body").css("background-image", "url(flor.jpg)");
+	});
+
+	$(".home").hover(function() {
 		$("body").css("background-image", "url(grey.jpg)");
 	});
 
