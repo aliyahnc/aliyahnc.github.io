@@ -3,47 +3,195 @@
 <html>
 
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<title>Community Morale & Wellness Center</title>
 	<style>
 
-	@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
-	@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+	@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600');
 	@import url("https://use.typekit.net/flb5ufj.css");
-	@import url('https://fonts.googleapis.com/css?family=Raleway');
-		
+
+	@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i');
+
+
+
 		h1 { 
+			position: absolute;
 			font-family: 'Source Sans Pro';
-			font-weight: 900;
-			font-size: 40px; 
-			width: 700px;
+			font-weight: 200;
+			font-size: 38px; 
+			letter-spacing: .2px;
+			color: black;
+		}
+
+		h2 {
+			position: absolute;
+			padding-left: 19%;
+			padding-top: 39%;
+			font-family: 'Source Sans Pro';
+			font-weight: 500;
+			font-size: 16px;
+			width: 53.5%;
+			letter-spacing: .1px;
+			line-height: 30px;
+		}
+
+		h3 {
+			position: absolute;
+			padding-top: 53%;
+			padding-left: 16%;
+			font-family: 'source-serif-pro';
+			font-weight: 600;
+			font-size: 24px;
+			width: 600px;
+			letter-spacing: .3px;
 		}
 
 		p {
+			position: absolute;
+			padding-top: 39%;
+			padding-left: 16%;
 			font-family: 'source-serif-pro';
 			font-weight: 400;
+			font-size: 19.5px;
+			width: 55%;
+			letter-spacing: .2px;
+			line-height: 35px;
+
+		}
+
+		h4 {
+			position: absolute;
+			width: 100%;
+		}
+
+		h5 {
+			font-family: 'source-serif-pro';
+			color: rgb(222,255,253);
+
+		}
+
+		img {
+			position: absolute; 
+			top: 10%;
+			width: 99%;
+			padding-top: 5px;
+			border-radius: 5px;
+		}
+
+		body {
+			background-color: #F8F8F8;
+		}
+
+		div {
+			position: absolute;
+		}
+
+		a {
+			color: black;
+			text-decoration: none;
+		}
+
+
+
+
+		.caption {
+			position: absolute;
+			top: 1000px;
+			left: 130px;
+			font-family: 'source-serif-pro';
+			font-weight: 300;
 			font-size: 20px;
+			width: 260px;
+			letter-spacing: .2px;
+			line-height: 35px;
+
+		}
+
+		.caption2 {
+			position: absolute;
+			top: 615px;
+			left: 940px;
+			font-family: 'source-serif-pro';
+			font-weight: 300;
+			font-size: 20px;
+			width: 260px;
+			letter-spacing: .2px;
+			line-height: 35px;
+		}
+
+		.bold {
+			font-weight: 600;
 			width: 600px;
 			letter-spacing: .2px;
 			line-height: 35px;
 		}
 
-		img {
-			width: 100%;
+		.highlight2 {
+			position: relative;
+			top: 0px;
+			left: 300px;
+			width: 390px;
+			height: 290px;
+			background-color: rgb(222,255,253);
+
+		}	
+
+		.before {
+			position: relative;
+			top: -240px;
+			left: 70px;
+			font-family: 'Source Sans Pro';
+			font-style: italic;
+			font-size: 24px;
+			color: rgb(222,255,253);
+			font-weight: 500;
 		}
 
-		.article {
-			position: absolute;
-			padding-left: 200px;
-			padding-top: 170px;
+		.after {
+			position: relative;
+			top: -120px;
+			left: 490px;
+			font-family: 'Source Sans Pro';
+			font-style: italic;
+			font-size: 24px;
+			color: white;
+			font-weight: 500;
 		}
+
+
+		.line {
+			position: absolute;
+			top: 903px;
+			left: 500px;
+			height: 290px;
+			border-left: 2px black solid 
+		}
+
+		.highlight3 {
+			position: absolute;
+			top: 670px;
+			left: 20px;
+			width: 800px;
+			height: 260px;
+			background-color: rgb(222,255,253);
+
+		}
+
+
+		.overview {
+			position: absolute;
+			top: 310px;
+			left: 940px;
+			font-size: 25px;
+			font-weight: 700;
+			letter-spacing: 4px;
+		}	
 
 		.headerexc {
-			font-family: 'Source Serif Pro';
-			font-weight: 700;
-			font-size: 20px;
+			font-family: 'source-serif-pro';
+			font-weight: 600;
+			font-size: 18px;
 			width: 600px;
-			letter-spacing: .1px;
 
 		}
 
@@ -52,23 +200,96 @@
 			font-weight: 600;
 			font-size: 16px;
 			letter-spacing: .2px;
+			line-height: 30px;
 		}
 
 		.contributors {
 			font-family: 'Source Sans Pro';
 			font-weight: 500;
 			font-size: 16px;
+			line-height: 30px;
+
 		}
 
-				.logo {
-			position: fixed;
-			top: -4px;
-			font-family: 'Raleway';
-			font-size: 40px;
-			font-weight: 400;
+		.articles { 
+			padding-left: 16%;
+			padding-top: 60%;
+			padding-bottom: 60px;
+
+		}
+
+		.events { 
+			padding-left: 16%;
+			padding-top: 29%;
+			padding-bottom: 60px;
+
+		}
+
+		.container2 {
+			position: absolute;
+			top: 60.3%;
+			height: 100%;
+			width: 99%;
+			background-color: white;
+			border-radius: 5px;
+
+		}	
+
+		.highlight {
+			position: absolute;
+			top: 60.3%;
+			left: 15%;
+			width: 838px;
+			height: 157px;
+			background-color: rgb(92,255,244,.2);
+			border-radius: 5px;
+			opacity: 0;
+
+		}
+
+		.container {
+			position: absolute;
+			height: 8.4%;
+			width: 99%;
+			background-color: white;
+			border-radius: 5px;
+
+		}
+
+		.nav {
+			position: absolute;
+			top: 3.2%;
+			left: 52%;
+			width: 40%;
+			font-family: 'Source Sans Pro';
+			font-size: 18px;
+			font-weight: 200;
+			letter-spacing: .2px;
+			word-spacing: 40px;
+			color: black;
 			padding-left: 200px;
+		}
+
+
+		.logo {
+			position: absolute;
+			top: -3.2%;
+			font-family: 'Raleway';
+			font-size: 28px;
+			font-weight: 500;
+			color: black;
+			padding-left: 15%;
 			padding-top: 0px;
 		}
+
+		.light {
+			font-weight: 200;
+		}
+
+		.underline {
+			border-bottom: 2px solid grey;
+		}
+
 
 	</style>
 	
@@ -77,16 +298,27 @@
 
 	<body>
 
-		<div class="article">
-		
-		<p></p>
-</div>
+
+<div class="highlight"></div>
+
+<h1 class="articles">Latest articles</h1>
+
+<h1 class="events">Happening this week</h1>
+
+<img src="placeholder5.png">
+
+<div class="container"></div>
+
+<div class="nav">EVENTS <a href="articles.html">ARTICLES</a> RESOURCES ABOUT</div>
+
+<h4 class="logo"><a href="index.html">Morale & Wellness <span class="light">Community Center</span></a></h4>
 
 
-		<!--<h1 class="logo">Morale & <br>Wellness</h1>-->
-		<img src="Asset-8.png">
-		<img src="Asset-5.png">
-		<img src="Asset-11.png">
+
+
+
+
+
 	</body>
 
 </html>

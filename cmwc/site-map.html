@@ -11,6 +11,11 @@
 
 	@import url("https://use.typekit.net/flb5ufj.css");
 		
+		body {
+			background-color: #F8F8F8;
+		}
+
+
 		h1 { 
 			font-family: 'Source Sans Pro';
 			font-weight: 900;
@@ -41,6 +46,7 @@
 			text-decoration: none;
 		}
 
+
 		.article {
 			position: absolute;
 			padding-left: 200px;
@@ -69,6 +75,10 @@
 			font-size: 16px;
 		}
 
+		img {
+			position: absolute;
+			width: 100%;
+		}
 
 	</style>
 	
@@ -76,21 +86,38 @@
 	</head>
 
 	<body>
+
+		<!-- 
+		For "n" images You must define:
+		a=presentation time for one image (3s/img)
+		b=duration for cross fading (3s)
+		Total animation-duration is of course t=(a+b)*n (6s)
+
+		animation-delay = t/n or = a+b
+	
+		Percentage for keyframes:
+
+    	0%
+    	a/t*100%
+    	(a+b)/t*100% = 1/n*100%
+    	100%-(b/t*100%)
+    	100%
+		-->
+
 		<div class="article">
 		<h1>Site Map</h1>
 	
 			<ul>
-				<li><a href="index.html">Welcome page</a> / SPA</li> 
-				<li>Articles</li>
-				<ul><li><a href="migratory-stress.html">What causes migratory stress?</a> / <a href="duelo-migratorio.html">SPA</a></li>
-				<li><a href="those-left-behind.html">Recognizing the effects of migratory stress in children of migrants left behind"</a> / <a href="los-que-se-quedan.html">SPA</a></li></ul>
-				<li>Resources</li>
+				<li><a href="index.html">Welcome page</a> / Indicio</li> 
+				<li>Articles / Articulos</li>
+				<ul><li><a href="migratory-stress.html">What causes migratory stress?</a> / <a href="duelo-migratorio.html">De que se trata el duelo migratorio?</a></li>
+				<li><a href="those-left-behind.html">Recognizing the sign of migratory stress in children of migrants left behind</a> / <a href="los-que-se-quedan.html">Conocer las senales: El duelo migratorio en los hijos que se quedan atras</a></li></ul>
+				<li>Resources / Recursos</li>
 				<li>About / SPA</li>
 
 			</ul>
-			<br><br><br><br>
-	
-</div>
+			<br><br><br><br><div class="FadeInOut4"><img src="Asset-55.png"></div>
+</div> 
 	</body>
 
 </html>
