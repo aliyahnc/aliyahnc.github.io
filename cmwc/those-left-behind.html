@@ -29,13 +29,14 @@
 		}
 
 		h3 {
+			position: relative;
 			font-family: 'Source Sans Pro';
 			font-weight: 700;
 			font-size: 28px;
 			letter-spacing: .7px;
 			line-height: 30px;
 			padding-top: 10px;
-			color: black;
+			clear: both;
 		}
 
 		p {
@@ -61,6 +62,10 @@
 			text-decoration: none;
 		}
 
+		a:hover {
+			color: rgb(92,255,244);
+		}
+
 		li {
 			font-family: 'source-serif-pro';
 			font-weight: 400;
@@ -78,8 +83,8 @@
 
 		.caption {
 			position: absolute;
-			top: 1000px;
-			left: 130px;
+			top: 31.2%;
+			left: 26%;
 			font-family: 'source-serif-pro';
 			font-weight: 300;
 			font-size: 20px;
@@ -91,8 +96,8 @@
 
 		.caption2 {
 			position: absolute;
-			top: 615px;
-			left: 940px;
+			top: 31.2%;
+			left: 63%;
 			font-family: 'source-serif-pro';
 			font-weight: 300;
 			font-size: 20px;
@@ -110,57 +115,79 @@
 		}
 
 
-		.highlight2 {
+		.highlight {
 			position: relative;
-			top: 0px;
-			left: 300px;
-			width: 390px;
+			float: right;
+			left: -10%;
+			width: 370px;
 			height: 290px;
 			background-color: rgb(222,255,253);
-
+			vertical-align: top;
 		}	
 
 		.before {
-			position: relative;
-			top: -240px;
-			left: 70px;
+			position: absolute;
+			top:28%;
+			left: 35%;
 			font-family: 'Source Sans Pro';
 			font-style: italic;
-			font-size: 24px;
-			color: rgb(222,255,253);
+			font-size: 22px;
+			color: #ACACAC;
 			font-weight: 500;
+			letter-spacing: 1px;
 		}
 
 		.after {
-			position: relative;
-			top: -120px;
-			left: 490px;
+			position: absolute;
+			top: 28%;
+			left: 71%;
 			font-family: 'Source Sans Pro';
 			font-style: italic;
-			font-size: 24px;
-			color: white;
+			font-size: 22px;
+			color: #ACACAC;
 			font-weight: 500;
+			letter-spacing: 1px;
+		}
+
+		.highlight2 {
+			position: relative;
+			float: left;
+			top: 27.5%;
+			width: 358px;
+			height: 290px;
+			background-color: #F7F7F7;
+		}
+
+		.line2 {
+			position: absolute;
+			top: 27.5%;
+			left: 55.8%;
+			height: 290px;
+			border-left: 2px black solid 
 		}
 
 
 		.line {
 			position: absolute;
-			top: 903px;
-			left: 500px;
+			top: 27.5%;
 			height: 290px;
-			border-left: 2px black solid 
+			border-left: 2px #E5E5E5 solid 
 		}
 
 		.highlight3 {
 			position: absolute;
-			top: 670px;
-			left: 20px;
-			width: 800px;
-			height: 260px;
-			background-color: rgb(222,255,253);
-
+			width: 358px;
+			height: 290px;
+			background-color: #F7F7F7;
 		}
 
+		.pullquote {
+			position: absolute;
+			top: 55%;
+			font-family: 'Source Sans Pro';
+			font-size: 30px;
+			width: 65%;
+		}
 
 		.asterisk {
 			position: absolute;
@@ -274,9 +301,27 @@
 
 <div class="article">
 		<h1>Recognizing the signs:<br>Migratory stress in children of migrants left behind</h1>
-		<h3 class="title1">What causes migratory stress?</h3>
 
-		<p><span class="bold">Migratory stress</span>, also known as migratory grief or mourning, is a condition that occurs when the changes brought on by migration cannot be overcome. This includes any changes that occur before, during, and after migrating as well as any underlying medical issues or social circumstances.</p>
+		<div class="highlight"></div>
+
+		<div class="highlight2"></div>
+
+		<div class="line2"></div>
+
+
+		<p class="before">before</p>
+
+		<p class="after">after</p>
+
+
+		<p class="caption">The changes that migration brings occur before, <span style="font-weight: 600;">during</span>, and after migrating.</p>
+
+		<p class="caption2">It is a distress that affects both the migrant and any loved ones left behind.</p>
+
+
+		<h3>What causes migratory stress?</h3>
+
+		<p><span class="bold">Migratory stress</span>, <a href="migratory-stress.html"><u>also known as migratory grief or mourning</u></a>, is a condition that occurs when the changes brought on by migration cannot be overcome. This includes any changes that occur before, during, and after migrating as well as any underlying medical issues or social circumstances.</p>
 
 		<h3>Risk factors for children of migrants </h3>
 
