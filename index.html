@@ -19,6 +19,9 @@
 
 
 		h1 { 
+			position: absolute;
+			padding-top: 16px;
+			padding-left: 12vw;
 			font-family: 'Source Sans Pro';
 			font-weight: 900;
 			font-size: 40px; 
@@ -27,11 +30,14 @@
 
 		p {
 			font-family: 'source-serif-pro';
-			font-weight: 400;
+			font-weight: 600;
 			font-size: 20px;
+			font-style: uppercase;
 			width: 600px;
 			letter-spacing: .2px;
-			line-height: 35px;
+			line-height: 50px;
+			padding-left: .5em;
+			padding-right: .5em;
 		}
 
 		ul {
@@ -39,21 +45,32 @@
 			font-weight: 400;
 			font-size: 20px;
 			width: 600px;
-			letter-spacing: .2px;
-			line-height: 35px;
+			letter-spacing: 1px;
+			line-height: 25px;
+			color: gray;
+		}
 
+		li {
+			padding-bottom: .5em;
 		}
 
 		a {
 			text-decoration: none;
 		}
 
+		.nav {
+			position: absolute;
+			padding-top: 10px;
+			margin-left: 48vw;
+			padding-left: .5em;
+			padding-right: 5em;
+			background-color: white;
+		}
 
 		.left {
 			position: absolute;
-			padding-left: 15vw;
-			padding-top: 170px;
-			float: left;
+			padding-left: 60vw;
+			padding-top: 300px;
 			width: 50vw;
 		}
 
@@ -64,41 +81,35 @@
 
 	<body>
 
-		<!-- 
-		For "n" images You must define:
-		a=presentation time for one image (3s/img)
-		b=duration for cross fading (3s)
-		Total animation-duration is of course t=(a+b)*n (6s)
+		<img src="flower1.jpg" width="35%" style="position: absolute; padding-top: 142px; left: 10vw;">
 
-		animation-delay = t/n or = a+b
-	
-		Percentage for keyframes:
+		<h1>Aliyah N. C. <br><span style="font-weight: 200;">Fine arts & graphic design</span></h1>
 
-    	0%
-    	a/t*100%
-    	(a+b)/t*100% = 1/n*100%
-    	100%-(b/t*100%)
-    	100%
-		-->
+	<!--
 
 		<div class="left">
-		<h1>Aliyah N. C. <br><span style="font-weight: 200;">Fine arts & graphic design</span></h1>
+
+				<p style="font-size: 20px; font-weight: 600; color: gray; line-height: 20px; padding-left: .8em; letter-spacing: 2px;">[ lately ]</p>
 
 				<ul>
 
-				<li>Understanding Ulysses / Entenderse a Ulises</li>
-				<li>Migratory stress / Duelo migratorio</li>
+				<li>Understanding Ulysses [Entenderse a Ulises]</li>
+				<li>Migratory stress [Duelo migratorio]</li>
 				<li><a href="https://aliyahnc.github.io/cmwc/index.html">Morale & Wellness</a></li>
 
 				<li>Herbal Hibiscus</li>
 
-				<li>Guinep still life / Bodegón con mamoncillo</li>
+				<li>Guinep still life [Bodegón con mamoncillo]</li>
 
 			</ul>
 
 </div> 
 
-<img src="flower1.jpg" style="width: 38%; float: right; padding-top: 80px; padding-right: 5vw;">
+-->
+
+<div class="nav"><p>Drawings <br>Fine arts <br>Print & web</p></div>
+
+<img src="Asset6.png" width="60%">
 
 	</body>
 
