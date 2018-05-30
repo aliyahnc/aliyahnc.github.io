@@ -34,11 +34,12 @@
 		h2 { 
 			font-family: 'Source Sans Pro';
 			font-weight: 600;
-			font-size: 35px; 
+			font-size: 25px; 
 			color: black;
 			line-height: 40px;
 			margin-right: 1em;
-			margin-bottom: .5em;
+			margin-bottom: 0em;
+			letter-spacing: .1px;
 		}
 
 		p {
@@ -50,7 +51,6 @@
 			width: 55vw;
 			margin-top: 0em;
 			margin-bottom: 1em;
-			padding-left: 1em;
 		}
 
 		img {
@@ -149,12 +149,28 @@
 			text-decoration: none;
 		}
 
+		li:before {
+			content: counter(li);
+			color: rgb(92,255,244);
+			display: inline-block; 
+			width: 1em;
+			font-family: 'Source Sans Pro';
+			font-weight: 900;
+			font-size: 23pt;
+		}
+
+		ol {
+			list-style: none;
+			counter-reset: li;
+		}
+
 		li {
 			font-family: 'source-serif-pro';
 			font-weight: 400;
-			font-size: 19.5px;
+			font-size: 20px;
 			letter-spacing: .3px;
-			line-height: 35px;
+			line-height: 30px;
+			counter-increment: li;
 		}
 
 		u {
@@ -199,8 +215,8 @@
 		.section {
 			position: absolute;
 			width: 66vw;
-			margin-left: 14vw;
-			padding: 3vw;
+			margin-left: 4vw;
+			padding: 3vw 6vw 3vw 18vw;
 			margin-top: 50%;
 			background-color: white;
 			border-radius: 5px;
@@ -212,7 +228,6 @@
 			width: 99%;
 			background-color: #855a5a;
 			border-radius: 5px;
-
 		}
 
 		.nav {
@@ -281,15 +296,12 @@
 
 		<h2>What is migratory stress?</span></h2>
 
-<hr>
-
 		<p>Also known as migratory grief or mourning, migratory stress is a condition that occurs when the changes brought on by migration cannot be overcome. This may refer to changes that occur before, during, and after migrating, including any reoccurring medical issues and underlying social circumstances. It is a distress that affects both the migrant and any loved ones they may have left behind. </p>
 
 		<!-- <h3>Migration as a series of losses and changes</h3> -->
 
-		<h2>What causes stress?</span></h2>
 
-<hr>
+		<h2>What causes stress?</span></h2>
 
 		<p>Migratory mourning is a stress of multiple causes and reasons that includes both what was left behind and the changes that lie ahead. Stress is a natural response that our body develops when we are forced to adapt to these new situations, but too much can become problematic when it occurs to the point that it interferes with our ability to fully adapt to the new changes. Migration can be seen as a series of losses and changes and the process of adaptation is not easy.</p>
 
@@ -297,15 +309,13 @@
 
 		<h2>What you can do?<span style="color: gray; letter-spacing: 0px; font-weight: 400;"></span></h2>
 
-		<hr>
-
 		<p>Recovering from the long-term effects of migratory stress is not easy and is often too much for any one person to handle on their own. But with the right resources and support, it is a challenges can be overcome.</p>
 
-		<h2 style="color: gray; line-height: 45px;margin-top: 0em; letter-spacing: 0px; padding-left: 1em; font-weight: 400;">
+		<ol>
 
-			1. Know the causes of migratory stress<br>2. Talk with your family and community about the causes<br>3. Learn more about Migration & Wellness
+			<li>Know the causes of migratory stress</li><li>Talk with your family and community about the causes</li><li>Learn more about Migration & Wellness</li>
 
-		</span></h2>
+		</ol>
 
 <hr style="border-width: solid 2px gray; margin-top: 6em;">
 
