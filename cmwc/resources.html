@@ -218,6 +218,23 @@
 			border-radius: 5px;
 		}
 
+		.section:before,
+		.section:after {
+			content: "";
+			position: absolute;
+			left: 0; right: 0;
+			bottom: 100%;
+			border-bottom: 30px solid white;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+		}
+
+		.section:after {
+			top: 100%;
+			border-bottom: none;
+			border-top: 30px solid white;
+		}
+
 		.container {
 			position: absolute;
 			height: 58px;
