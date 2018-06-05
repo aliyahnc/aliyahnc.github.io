@@ -64,6 +64,13 @@
 			border-radius: 5px;
 		}
 
+		@media screen and (max-width: 600px) {
+			img {
+				display: none;
+			}
+
+		}
+
 		a {
 			text-decoration: none;
 		}
@@ -215,7 +222,7 @@
 			width: 66vw;
 			margin-left: 14vw;
 			padding: 0vw 0vw 3vw 6vw;
-			margin-top: 53%;
+			margin-top: 700px;
 			background-color: rgb(146,144,158);
 		}
 
@@ -245,6 +252,16 @@
 
 		}
 
+		@media screen and (max-width: 600px) {
+			.container2 {
+				top: 10px;
+			}
+
+			.container {
+				height: 54px;
+			}
+		}	
+
 		.nav {
 			position: absolute;
 			top: 23px;
@@ -258,6 +275,7 @@
 		}
 
 		.logo {
+			display: show;
 			position: absolute;
 			top: -18px;
 			font-family: 'Raleway';
@@ -271,6 +289,19 @@
 
 		.light {
 			font-weight: 200;
+		}
+
+		@media screen and (max-width: 600px) {
+			.logo {
+			padding-left: 5vw;
+			font-size: 8vw;
+			width: 100%;
+			top: -14px;
+			}
+
+			.light {
+				display: none;
+			}
 		}
 
 		.underline {
@@ -316,13 +347,11 @@
 <p>973 264 7000 | hello@mwcc.com <br>Find us at 118 Citizen Rd,
 Middletown, XY 11839 (open weekdays, 9 a.m. to 3 p.m.)</p>
 
-
-
 </div>
 
 <img src="foto8.png">
 
-<img src="placeholder4.png" style="opacity: .4;"">
+<img src="placeholder4.png" style="opacity: .4;">
 
 <div class="container"></div>
 
