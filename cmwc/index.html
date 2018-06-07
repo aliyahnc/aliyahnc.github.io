@@ -46,6 +46,17 @@
 			letter-spacing: .1em;
 		}
 
+		@media screen and (max-width: 320px) {
+			h2 {
+				color: rgb(146,144,158);
+				letter-spacing: .3px;
+				width: 100%;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 7vw;
+			}
+		}
+
 		p {
 			font-family: 'Alegreya Sans';
 			font-weight: 400;
@@ -63,7 +74,7 @@
 			border-radius: 5px;
 		}
 
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 320px) {
 			img {
 				display: none;
 			}
@@ -130,6 +141,24 @@
 			letter-spacing: .5px;
 		}
 
+		@media screen and (max-width: 320px) {
+			a.class1:link {
+				color: rgb(146,144,158);
+			}
+
+			a.class1:visited {
+				color: rgb(146,144,158);
+			}
+
+			a.class2:link {
+				color: rgb(146,144,158);
+			}
+
+			a.class2:visited {
+				color: rgb(146,144,158);
+			}
+		}
+
 
 		li {
 			font-family: 'Alegreya Sans';
@@ -155,6 +184,18 @@
 			color: white;
 		}
 
+		@media screen and (max-width: 320px) {
+			ul {
+				width: 90%;
+				padding-left: 5vw;
+			}
+
+			li {
+				font-weight: 500;	
+				font-size: 6vw;
+			}
+		}
+
 		u {
 			text-decoration: none;
 			border-bottom: solid rgb(92,255,244) 2px;
@@ -168,6 +209,12 @@
 		    width: 82%;
 		    margin: 2em 0em 2em 0em;
 		    border-color: rgb(92,255,244,.3);
+		}
+
+		@media screen and (max-width: 320px) {
+			hr {
+				width: 100%;
+			}
 		}
 
 		.bold {
@@ -208,7 +255,7 @@
 			display: show;
 		}
 
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 320px) {
 			.article {
 				position: absolute;
 				left: 0;
@@ -268,7 +315,7 @@
 
 		}
 
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 320px) {
 			.container2 {
 				top: 0;
 				left: 0;
@@ -276,9 +323,25 @@
 			}
 
 			.section {
-				float: left;
-				margin-top: 120%;
+				left: 0;
+				padding-top: 0;
+				padding-left: 0;
+				margin-top: 100%;
+				margin-left: 0;
+				border-top: solid 2px rgb(92,255,244,.3);
+				text-align: center;
+				background-color: transparent;
+				width: 100%;
 				}
+
+			.section:before,
+			.section:after {
+				display: none;
+			}
+
+			.section:after {
+				display: none;
+			}
 
 			.container {
 				top: 0;
@@ -313,7 +376,7 @@
 			padding-top: 0px;
 		}
 
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 320px) {
 			.nav {
 				display: none;
 			}
