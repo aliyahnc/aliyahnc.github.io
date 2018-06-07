@@ -200,6 +200,37 @@
 			width: 75%;
 		}
 
+		.header2 {
+			display: none;
+		}
+
+		.header1 {
+			display: show;
+		}
+
+		@media screen and (max-width: 600px) {
+			.article {
+				position: absolute;
+				left: 0;
+				padding-left: 0;
+				padding-top: 20%;
+				width: auto;
+			}
+
+			.header2 {
+				display: block;
+				text-align: center;
+				margin: auto;
+				font-size: 10vw;
+				width: 80%;
+			}
+
+			.header1 {
+				display: none;
+			}
+
+		}
+
 		.section {
 			position: absolute;
 			width: 66vw;
@@ -243,7 +274,11 @@
 			}
 
 			.container {
+				top: 0;
+				left: 0;
+				width: 100%;
 				height: 54px;
+				border-radius: 0;
 			}
 		}	
 
@@ -310,7 +345,9 @@
 
 <div class="article">
 
-<h1><span style="font-family: 'Alegreya'; font-weight: 700;">Morale & Wellness is a grassroots organization <u>whose number one goal lies in putting families first.</u></span></h1>
+<h1 class="header2"><span style="font-family: 'Alegreya'; font-weight: 700;">A grassroots organization <br>whose number one goal is putting <u>families first.</u></span></h1>
+
+<h1 class="header1"><span style="font-family: 'Alegreya'; font-weight: 700;">Morale & Wellness is a grassroots organization <u>whose number one goal lies in putting families first.</u></span></h1>
 
 </div>
 

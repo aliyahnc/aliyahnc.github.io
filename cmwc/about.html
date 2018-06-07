@@ -217,6 +217,37 @@
 			width: 70%;
 		}
 
+		.header2 {
+			display: none;
+		}
+
+		.header1 {
+			display: show;
+		}
+
+		@media screen and (max-width: 600px) {
+			.article {
+				position: absolute;
+				left: 0;
+				padding-left: 0;
+				padding-top: 20%;
+				width: auto;
+			}
+
+			.header2 {
+				display: block;
+				text-align: center;
+				margin: auto;
+				font-size: 10vw;
+				width: 80%;
+			}
+
+			.header1 {
+				display: none;
+			}
+
+		}
+
 		.section {
 			position: absolute;
 			width: 66vw;
@@ -333,7 +364,9 @@
 
 <div class="article">
 
-	<h1><span style="font-family: 'Alegreya'; font-weight: 700;">Fostering morale & wellness means bringing <u>strong families & communities together</u></span></h1>
+	<h1 class="header2"><span style="font-family: 'Alegreya'; font-weight: 700;">Bringing strong families & communities <u>together</u></span></h1>
+
+		<h1 class="header1"><span style="font-family: 'Alegreya'; font-weight: 700;">Fostering morale & wellness means bringing <u>strong families & communities together</u></span></h1>
 
 </div>
 
