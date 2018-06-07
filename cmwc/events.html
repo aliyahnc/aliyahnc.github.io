@@ -45,6 +45,8 @@
 			letter-spacing: .1em;
 		}
 
+		@media screen and (max-width: 320px) {
+
 		p {
 			font-family: 'Alegreya Sans';
 			font-weight: 400;
@@ -185,6 +187,12 @@
 			padding-bottom: .2em;
 		}
 
+		@media screen and (max-width: 320px) {
+			u {
+				border-bottom: hidden;
+			}
+		}
+
 		.container2 {
 			position: absolute;
 			top: 20vw;
@@ -198,7 +206,9 @@
 			position: absolute;
 			padding-left: 14vw;
 			padding-top: 29%;
+			padding-bottom: 10px;
 			width: 75%;
+			background-color: rgb(92,255,244,.7);
 		}
 
 		.header2 {
@@ -206,7 +216,7 @@
 		}
 
 		.header1 {
-			display: show;
+			display: block;
 		}
 
 		@media screen and (max-width: 320px) {
@@ -215,16 +225,18 @@
 				left: 0;
 				padding-left: 0;
 				padding-top: 20%;
-				width: auto;
+				width: 100%;
 			}
-
 
 			.header2 {
 				display: block;
-				margin: auto;				
 				text-align: center;
-				font-size: 10vw;
-				width: 80%;
+				margin: auto;
+				font-family: Raleway;
+				font-size: 8vw;
+				font-weight: 300;
+				width: 90%;
+				line-height: 2.5em;
 			}
 
 			.header1 {
@@ -318,7 +330,7 @@
 			}
 
 			.logo {
-			padding-left: 5vw;
+			text-align: center;
 			font-size: 8vw;
 			width: auto;
 			top: -22px;
@@ -347,7 +359,9 @@
 
 <div class="article">
 
-<h1><u>Happening this week</u><br><span style="font-family: 'Alegreya'; font-weight: 700;">Community events</span></h1>
+<h1 class="header2"><u><span style="font-family: 'Raleway'; font-weight: 500;">Community events</span><br>Latest articles<br>Community Resources<br>Our mission</h1>
+
+<h1 class="header1"><u>Happening this week</u><br><span style="font-family: 'Alegreya'; font-weight: 700;">Community events</span></h1>
 
 </div>
 

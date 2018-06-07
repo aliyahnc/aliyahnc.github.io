@@ -48,6 +48,27 @@
 			letter-spacing: .1em;
 		}
 
+		@media screen and (max-width: 320px) {
+			h1 	{
+				text-align: center;
+				margin: auto;
+				font-size: 10vw;
+				font-weight: 500;
+				letter-spacing: .1px;
+				width: 80%;
+			}
+
+			h2 {
+				color: rgb(146,144,158);
+				letter-spacing: .3px;
+				width: 100%;
+				font-weight: 500;
+				font-size: 7vw;
+				text-transform: none;
+				margin-bottom: 0;
+			}
+		}
+
 		p {
 			color: white;
 			font-family: 'Alegreya Sans';
@@ -232,7 +253,7 @@
 		}
 
 		.header1 {
-			display: show;
+			display: block;
 		}
 
 		@media screen and (max-width: 320px) {
@@ -241,15 +262,14 @@
 				left: 0;
 				padding-left: 0;
 				padding-top: 20%;
-				width: auto;
+				width: 100%;
 			}
-
 
 			.header2 {
 				display: block;
 				text-align: center;
 				margin: auto;
-				font-size: 10vw;
+				font-size: 8vw;
 				width: 80%;
 			}
 
@@ -344,7 +364,7 @@
 			}
 
 			.logo {
-			padding-left: 5vw;
+			text-align: center;
 			font-size: 8vw;
 			width: auto;
 			top: -22px;
@@ -375,7 +395,9 @@
 
 <div class="article">
 
-<h1><u>Migration & Wellness</u> <span style="font-family: 'Alegreya'; font-weight: 700;"><br>Latest articles</span></h1>
+<h1 class="header2"><span style="font-family: 'Raleway'; font-weight: 300;">Latest articles</span></h1>
+
+<h1 class="header1"><u>Migration & Wellness</u> <span style="font-family: 'Alegreya'; font-weight: 700;"><br>Latest articles</span></h1>
 
 </div>
 
